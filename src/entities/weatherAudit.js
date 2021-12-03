@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const WeatherAuditSchema = mongoose.Schema({
   timestamp: {
-    type: String,
+    type: Date,
     required: true,
     minLength: 1,
   },
